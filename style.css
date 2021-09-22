@@ -4,6 +4,7 @@
     color: #F9FAF8;
     text-decoration: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -140,12 +141,16 @@ a:hover{
     font-weight: 800;
     font-size: 47px;
     margin: 65px 0px;
+    text-align: center;
 }
 
 #image_container{
     display: flex;
-    gap: 78px;
+    max-width: 1066px;
+    width: 90%;
+    justify-content: space-between;
     margin-bottom: 120px;
+    flex-wrap: wrap;
 }
 
 .image_box{
@@ -155,6 +160,8 @@ a:hover{
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin: 0px 10px;
+    
 }
 
 .box{
@@ -294,7 +301,83 @@ footer{
     #header ul{
         justify-content: center;
         flex-wrap: wrap;
+    }  
+
+    #sing_up_box{
+        background-color: #3882F6;
+        border-radius: 20px;
+        padding: 60px 60px;
+        max-width: 1380px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:510px){
+    #image_container{
+        justify-content: center;
     }
 
+    #section2 h2{
+        font-size: 40px;
+    }
+
+    #p1{
+        font-size: 30px;
+    }
+
+    #p2{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:470px){
+
+    #header h2{
+        font-size: 50px;
+
+    }
+
+    #navbar{
+        margin: 0px;
+        height: 50px;
+        overflow: auto;
+        scrollbar-width: none;
+    }
+
+    #header ul li{
+        text-align: center;
+        background-color: #2f3f55;
+        width: 100%;
+        border-radius: 20px;
+        margin: 5px 0px;
+        padding: 5px 0px;
+        transition: background-color 0.25s;
+
+    }
+
+    a:hover{
+        color: #E5E7EB;
+    }
+
+    #header ul li:hover{
+        background-color: #2b68cc;
+    }
+
+
+    #description h1{
+        font-size: 40px;
+
+    }
+
+    #description p{
+        font-size: 20px;
+    }
+
+    #description button{
+        font-size: 20px;
+    }
 }
 
