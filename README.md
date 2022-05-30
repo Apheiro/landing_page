@@ -6,3 +6,7 @@ Acquired knowledge:</br>
 ● Better use of markup language.</br>
 ● More understanding of boxing and the positioning of texts.</br>
 ● More properties learned in CSS.</br>
+
+Images preview:</br>
+![](./Preview/Screen%20Shot%202022-05-30%20at%2000.34.41.png)
+![](./Preview/Screen%20Shot%202022-05-30%20at%2000.34.47.png)
